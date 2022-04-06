@@ -1,0 +1,100 @@
+header{
+    background-color: blue;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+}    
+footer{
+    background-color: brown;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+main{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 100%;
+    padding-left: 300px;
+    box-sizing: border-box;
+}
+aside{
+    background-color: aqua;
+    display: inline-block;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 90px;
+    margin-bottom: 90px;
+    }
+footer li{
+    display: inline;
+}
+.button{
+        color: yellow;
+        text-align: right;
+    }
+.box1{
+    background-image: url(fondo-pg-1.png);
+    display: block;
+}
+nav {
+    text-align: left;
+    opacity: 1;
+    background-color: aqua;
+    color:navy;
+    width: 30px;
+    height: 20px;
+    }
+.child{
+    position:relative;
+    display: inline-block;
+    left: 500px;
+    up: 50px;
+}
+.box2{
+    display: inline-block;
+    width: 20%;
+
+
+}
+.box3{
+    display: inline-block;
+    left: 50%;
+    width: 50%;
+}
+.box4{
+    display:inline-block;
+    width: 50%;
+}
+.box4 h2{
+    text-align: center;
+}
+.block1{
+    display: inline-block;
+    width: 50%;
+}
+.block2{
+    display: inline-block;
+    width: 50%;
+}
+.block3{
+    display: inline-block;
+    width: 50%;
+}
+.block4{
+    display: inline-block;
+    width: 50%;
+}
+.block5{
+    display: inline-block;
+    width: 50%;
+}
+.block6{
+    display: inline-block;
+    width: 50%;
+}
